@@ -1,0 +1,140 @@
+:root {
+  --color1: #ffffff;
+  --color2: #101011;
+  --color3: #00628e;
+  --color4: #00a1e4;
+  --color5: #00e8ff;
+}
+
+.App {
+  background-color: var(--color2);
+
+  width: 50%;
+  height: 20em;
+  display: flex;
+
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 8rem;
+
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  
+}
+
+.title {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.title h1 {
+  font-weight: 1000;
+}
+
+.pageOne {
+  background-color: rgb(12, 11, 11);
+  width: 90%;
+  height: 90%;
+
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 4px;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 2rem;
+  color: var(--color1);
+}
+
+.numberInput {
+  margin-top: 1rem;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 10rem;
+}
+
+.submitButton {
+  background-color: #343434;
+  color: #101012;
+  height: 2rem;
+  width: 6rem;
+
+  display: flex;
+  justify-content: center;
+
+  transition: 200ms ease-in-out;
+
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #525050;
+  color: #ffffff;
+}
+
+.PopUp {
+  visibility: hidden;
+  
+}
+
+.PopUpTwo { 
+  visibility: none;
+
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 70%;
+  height: 25em;
+  
+  position: relative;
+  z-index: 2;
+  
+  opacity: 1;
+
+  display: flex;
+
+  margin-top: -23em;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 5px;
+}
+
+.NumberRandomized {
+  visibility: none;
+  
+  width: 70%; 
+  height: 30%; /*7.5 em*/
+  background-color: rgb(199, 199, 199);
+
+  color: black;
+  
+  display: flex;
+  justify-content: center;
+  
+  margin-top: 8em;
+  
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  
+  opacity: 1;
+
+  border-radius: 4px;
+}
+
+.textFromNumber {
+  margin-top: 3.2rem;
+  font-size: 1.1rem;
+}
