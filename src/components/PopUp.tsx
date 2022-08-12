@@ -29,16 +29,3 @@ function PopUp({ numberInput, randomNumber, runAfterSubmit }: Props) {
 }
 
 export default PopUp
-
-// comment
-// const popUpGreat = (props : number) => {
-//  <div>"O número gerado é " + random + ". Por tanto, o número que você digitou é maior!"</div>
-// }
-
-// const popUpLess = (props : number) => {
-//   <div>"O número gerado é " + random + ". Por tanto, o número que você digitou é menor!"</div>
-// }
-
-// const popUpIqual = (props : number) => {
-//   <div>"O número gerado é " + random + ". Por tanto, o número que você digitou é igual, parabéns!" </div>
-// }
